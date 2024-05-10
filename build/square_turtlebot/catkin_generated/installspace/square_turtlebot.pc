@@ -1,0 +1,8 @@
+prefix=/home/typer/catkin_ws/install
+
+Name: square_turtlebot
+Description: Description of square_turtlebot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

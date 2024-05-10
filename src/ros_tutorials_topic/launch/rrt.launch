@@ -1,0 +1,9 @@
+<launch>
+<group ns="ns1">
+<node pkg="ros_tutorials_topic" type="rrt_subscriber" name="rrt_subscriber"/>
+</group>
+
+
+<arg name="update_period" default="10" />
+<param name="timing" value="$(arg update_period)"/>
+</launch>
